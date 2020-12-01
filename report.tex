@@ -1,0 +1,138 @@
+\documentclass{article}
+
+\usepackage[final]{neurips_2019}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{lipsum}
+\usepackage{enumitem}
+
+\newcommand{\note}[1]{\textcolor{blue}{{#1}}}
+
+\title{
+  Document Classification: 20 Newsgroup \\
+  \vspace{.35cm}
+  \Large{\normalfont INT3406 21 - Group 3} 
+}
+
+\author{
+  \large Group 3\\
+  Pham Truong Giang - 1802xxxx\\
+  Nguyen Manh Dung - 18020370\\
+  Nguyen Phuc Hai - 1802xxxx\\
+  Le Bang Giang - 1802xxxx\\
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Your abstract should motivate the problem, describe your goals, 
+  and highlight your main findings. Given that your project is still in progress, it is okay if your findings are what you are still working on.
+\end{abstract}
+
+
+\section{Introduction}
+
+\begin{enumerate}[label=1.\arabic*]
+    \item abstract
+    \item abstract
+\end{enumerate}
+
+
+\section{Preprocessing}
+
+\begin{enumerate}[label=2.\arabic*]
+    \item Lowercasing
+    \item Map different word to canonical form
+    \begin{enumerate}[label=2.2.\arabic*]
+        \item Stemming
+        \item Lemmatization
+    \end{enumerate}
+    \item Stop word
+    \item Noise removal
+    \item Summary
+\end{enumerate}
+
+
+
+\section{Feature Extraction}
+
+\begin{enumerate}[label=3.\arabic*]
+    \item Bag of Word (BoW)
+    \begin{enumerate}[label=3.1.\arabic*]
+        \item Brief Explaination
+        \item Algorithm
+        \item Implementation
+        \item Discussion
+    \end{enumerate}
+    
+    \item Term Frequency – Inverse Document Frequency (TF – IDF)
+    \begin{enumerate}[label=3.2.\arabic*]
+        \item Brief Explaination
+        \item Algorithm
+        \item Implementation
+        \item Discussion
+    \end{enumerate}
+    
+    \item Word Embedding
+    \begin{enumerate}[label=3.3.\arabic*]
+        \item Brief Explaination
+        \item Algorithm
+        \item Implementation
+        \item Discussion
+    \end{enumerate}
+\end{enumerate}
+
+
+\section{Classification}
+
+\begin{enumerate}[label=4.\arabic*]
+    \item Linear Model
+    \begin{enumerate}[label=4.1.\arabic*]
+        \item Naive Bayes
+        \item Logistic Regression (LR)
+        \item Ridge Classification
+        \item Perceptron
+        \item Passive-Aggressive
+    \end{enumerate}
+    
+    \item Non-parametric
+    \begin{enumerate}[label=4.2.\arabic*]
+        \item K-nearest neighbor (KNN)
+        \item Support Vector Machine (SVM)
+        \item Linear Support Vector Machine (LinearSVC)
+    \end{enumerate}
+    
+    \item Tree-based Classifiers
+    \begin{enumerate}[label=4.3.\arabic*]
+        \item K-nearest neighbor (KNN)
+        \item Support Vector Machine (SVM)
+        \item Linear Support Vector Machine (LinearSVC)
+    \end{enumerate}
+
+    \item Graphical Classification
+    \begin{enumerate}[label=4.4.\arabic*]
+        \item Conditional Random Fields (CRFs)
+        \item ...
+    \end{enumerate}
+
+    \item Neural Network
+\end{enumerate}
+
+
+\section{Summary}
+Abstract
+
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}
