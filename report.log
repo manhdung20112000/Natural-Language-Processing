@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.25)  1 DEC 2020 23:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.25)  1 DEC 2020 23:36
 entering extended mode
 **c:/Users/manhd/Natural-Language-Processing/report.tex
 (c:/Users/manhd/Natural-Language-Processing/report.tex
@@ -407,55 +407,73 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 {C:/Users/manhd/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
 
  []
 
-[2] (c:/Users\manhd\Natural-Language-Processing\report.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 152.
+(C:\Users\manhd\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [2]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+(c:/Users\manhd\Natural-Language-Processing\report.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [3] (c:/Users\manhd\Natural-Language-Processing\report.aux)
+) [3] [4] (c:/Users\manhd\Natural-Language-Processing\report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: FAE8CAA85B2E6867C59C981CC04E2070;239.
  ) 
 Here is how much of TeX's memory you used:
- 8884 strings out of 480236
- 143615 string characters out of 2880557
+ 8942 strings out of 480236
+ 144327 string characters out of 2880557
  645711 words of memory out of 3000000
- 25175 multiletter control sequences out of 15000+200000
- 552002 words of font info for 82 fonts, out of 3000000 for 9000
+ 25198 multiletter control sequences out of 15000+200000
+ 553670 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,77p,303b,583s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,8n,77p,303b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/manhd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/manhd/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/manhd/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/manhd/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/manhd/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users\manhd\Natural-Language-Processing\report.pdf (3 pages, 65867 bytes).
+Output written on c:/Users\manhd\Natural-Language-Processing\report.pdf (4 pages, 72438 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 17449 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 17961 words of extra memory for PDF output out of 20736 (max. 10000000)
 
