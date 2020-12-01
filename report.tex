@@ -12,17 +12,19 @@
 \usepackage{xcolor}
 \usepackage{lipsum}
 \usepackage{enumitem}
+\graphicspath{ {.img/stem/} }
 
 \newcommand{\note}[1]{\textcolor{blue}{{#1}}}
 
 \title{
-  Document Classification: 20 Newsgroup \\
-  \vspace{.35cm}
+  Document Classification: 20 Newsgroup
+  \vspace{.35cm} \\
   \Large{\normalfont INT3406 21 - Group 3} 
 }
 
 \author{
-  \large Group 3\\
+  \large Group 3
+  \vspace{.1cm} \\
   Pham Truong Giang - 1802xxxx\\
   Nguyen Manh Dung - 18020370\\
   Nguyen Phuc Hai - 1802xxxx\\
@@ -48,17 +50,67 @@
 
 
 \section{Preprocessing}
-
+Data preprocessing is an essential step in building Machine Learning models. 
+In natural language processing (NLP), text preprocessing can simply be understood as the process to transform raw text data into a form that is \emph{\textbf{predictable}} and \emph{\textbf{analyzable}}.\\
+However, the preprocess steps depend mostly on the task. One task’s ideally preprocessing can become another task “nightmare”. 
+So it’s important to keep in mind that preprocessing is not a one-size-fits-all approach.
 \begin{enumerate}[label=2.\arabic*]
-    \item Lowercasing
-    \item Map different word to canonical form
+    \item Lowercasing \\
+    The simplest technique to start preprocessing data is lowercasing ALL the text. Although simple as it is, lowercasing is the most effective form of text preprocessing that can be applicable to most NLP problems. \\
+    It’s easy to confuse the model that “Vietnam” and “vietnaM” are 2 different words. Although it has the same meaning, refer to the same country. Here is the example of how lowercasing solves the issue.    
+    \begin{center}
+        \begin{tabular}{|c|c|}
+            \hline 
+            \textbf{Raw} & \textbf{Lowercasing} \\
+            \hline
+            Vietnam & \\
+            vietNam & vietnam\\
+            VIETNAM & \\
+            vietnaM & \\
+            \hline
+            Autumn & \\
+            autumn & autumn\\ 
+            AuTuMn & \\ 
+            autumn & \\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    \item Map different word to canonical form \\
+    Languages we speak and write are made up of several words often derived from one another.
+    When a language contains words that are derived from another word as their use in the speech changes is called \emph{\textbf{Inflected Language}}.\\
+    For simple, we can simply understand that an inflected word will have a \emph{common root}. 
+
+    \begin{center}
+        \begin{tabular}{|c|c|}
+            \hline 
+            \textbf{Inflected} & \textbf{Root} \\
+            \hline
+            playing & \\
+            played & play\\
+            player & \\
+            \hline
+            better & \\
+            best & good\\ 
+            good & \\ 
+            \hline
+        \end{tabular}
+    \end{center}
+
     \begin{enumerate}[label=2.2.\arabic*]
-        \item Stemming
-        \item Lemmatization
+        \item Stemming \\
+        Stemming is the process of reducing inflection in words to their root forms such as mapping a group of words to the same stem even if the stem itself is not a valid word in the Language. \\
+        Stemming uses a crude heuristic process that chops off the ends of words in the hope of correctly transforming words into its root form.
+
+        
+        \item Lemmatization \\
     \end{enumerate}
-    \item Stop word
-    \item Noise removal
-    \item Summary
+    Stemming and Lemmatization are widely used in \emph{tagging systems, indexing, SEOs, Web search results, and information retrieval}. 
+    For example, searching for fish on Google will also result in fishes, fishing as fish is the stem of both words. \\
+
+    \item Stop word \\
+    \item Noise removal \\
+    \item Summary \\
 \end{enumerate}
 
 
@@ -66,7 +118,7 @@
 \section{Feature Extraction}
 
 \begin{enumerate}[label=3.\arabic*]
-    \item Bag of Word (BoW)
+    \item Bag of Word (BoW) \\
     \begin{enumerate}[label=3.1.\arabic*]
         \item Brief Explaination
         \item Algorithm
